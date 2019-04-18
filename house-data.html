@@ -8,8 +8,8 @@
     <title></title>
     <link rel="stylesheet" href="styles/main-local.css">
     <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.common.js"></script>
     <!--    <link href="bootstrap-4.3.1-dist/css/bootstrap.bundle.min.css" rel="stylesheet">-->
+
 </head>
 
 <body>
@@ -17,6 +17,7 @@
         <div class="container banner-container">
             <img class="logo" src="images/scales.png" alt="">
         </div>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="home.html">TGIF</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,28 +63,14 @@
                 </form>
             </div>
         </nav>
-        <header>
-            <span></span>
-            <div class="container">
-                <select name="state" id="state-selector">
-                    <option value="all">--All--</option>
-                </select>
-                <input type="checkbox" class="selector" name="party" value="D">Democrat
-                <input type="checkbox" class="selector" name="party" value="R">Republican
-                <input type="checkbox" class="selector" name="party" value="I">Independent
-            </div>
-            <table class="table-striped" id="senate-data">
-            </table>
-        </header>
+        <!--Table container-->
         <div>
+            <h5>Congressmen</h5>
+            <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+            <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative. </p>
+            <table class="table-striped"></table>
         </div>
-        <script src="pro-congress-113-senate.js"></script>
-        <script src="styles/popper.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <script src="stats_data.js"></script>
-        <script src="main.js"></script>
     </div>
-</body></html>
+</body>
+
+</html>
